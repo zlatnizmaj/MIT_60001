@@ -72,7 +72,7 @@ class Message(object):
             self.valid_words (list, determined using helper function load_words)
         '''
         self.message_text = text
-        self.valid_words = load_words("words.txt")
+        self.valid_words = load_words(WORDLIST_FILENAME)
 
     def get_message_text(self):
         '''
@@ -89,7 +89,7 @@ class Message(object):
         
         Returns: a COPY of self.valid_words
         '''
-        return list(self.valid_words)
+        return self.valid_words[:]
 
     def build_shift_dict(self, shift):
         '''
