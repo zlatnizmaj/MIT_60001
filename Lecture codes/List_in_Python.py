@@ -44,12 +44,20 @@ print(L_will_removed_ele)
 # convert list to string: list(s)
 # s.split(): split a string on a character on spaces
 
-s = "I<3 cs"
-L_from_string = list(s)
-print(L_from_string)
-
-print(s.split())
+s = str(input("Enter your full name: "))
+# L_from_string = list(s)
+# print(L_from_string)
+L_with_split_spaces = s.split()
+print(L_with_split_spaces)
+for char in L_with_split_spaces:
+    print(char)
 
 L_to_string = ['a', 'b', 'c']
 print(''.join(L_to_string))
 print('_'.join(L_to_string))
+print(s)
+#L_copy = L_from_string[:]
+# L_copy.append(" Pooh U")
+# print(L_from_string)
+# print(L_copy)
+# print(list(''.join(L_copy)))

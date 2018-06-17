@@ -27,7 +27,7 @@ for char in s:
 ######################
 ## ROBOT CHEERLEADERS
 ######################
-an_letters = "aefhilmnorsxAEFHILMNORSX"
+an_letters = 'aefhilmnorsxAEFHILMNORSX'
 word = input("I will cheer for you ! Enter a word: ")
 times = int(input("Enthusiasm level (1-10): "))
 
@@ -35,9 +35,14 @@ times = int(input("Enthusiasm level (1-10): "))
 #while i < len(word):
     # char = word[i]
 for char in word:
+    print(char)
+    found = False
     if char in an_letters:
+        found = True
+        print(found)
         print("Give me an: " + char + "! " + char)
     else:
+        print(found)
         print("Give me a: " + char + "! " + char)
     # i += 1
 print("What does that spell")
