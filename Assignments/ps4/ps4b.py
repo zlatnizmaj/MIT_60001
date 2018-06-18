@@ -38,9 +38,9 @@ def is_word(word_list, word):
     Returns: True if word is in word_list, False otherwise
 
     Example:
-    >>> is_word(word_list, 'bat') return
+    #>>> is_word(word_list, 'bat') return
     True
-    >>> is_word(word_list, 'asdf') return
+    #>>> is_word(word_list, 'asdf') return
     False
     '''
     word = word.lower()
@@ -176,7 +176,7 @@ class PlaintextMessage(Message):
         
         Returns: a COPY of self.encryption_dict
         '''
-        return self.encryption_dict
+        return self.encryption_dict.copy()
 
     def get_message_text_encrypted(self):
         '''
@@ -196,7 +196,11 @@ class PlaintextMessage(Message):
 
         Returns: nothing
         '''
-        pass #delete this line and replace with your code here
+        # self.shift = shift
+        # self.encryption_dict = self.build_shift_dict(self.shift)
+        # self.message_text_encrypted = self.apply_shift(self.shift)
+
+        PlaintextMessage.__init__(self, self.message_text, shift)
 
 
 class CiphertextMessage(Message):
@@ -210,7 +214,8 @@ class CiphertextMessage(Message):
             self.message_text (string, determined by input text)
             self.valid_words (list, determined using helper function load_words)
         '''
-        pass #delete this line and replace with your code here
+        Message.__init__(self, text)
+
 
     def decrypt_message(self):
         '''
@@ -228,22 +233,50 @@ class CiphertextMessage(Message):
         Returns: a tuple of the best shift value used to decrypt the message
         and the decrypted message text using that shift value
         '''
-        pass #delete this line and replace with your code here
+        '''
+        idea: giải mã_decrypt 1 chuỗi đã mã hóa với khóa shift không biết bằng cách:
+        với mỗi khóa shift đi từ 0 đến 26 (26 chữ cái a-z):
+            -so sánh mỗi từ của chuỗi đã mã hóa với danh sách word_list mà đề bài cho trước
+            -nếu True thì ghi vết đếm số lượng từ khớp với danh sách
+            -nếu khóa nào có số lượng từ khớp với danh sách word_list nhiều nhất thì in ra chuỗi với
+            khóa shift đó
+            -chuỗi mã hóa với khóa s thì chuỗi giải mã sẽ có khóa 26-s, thông tin để test
+        '''
+        best_shift = 0
+        max_number_words = 0
 
-if __name__ == '__main__':
+        for s in range (0,27): # 0<= x < 27
+            decrypted_message = self.apply_shift(s) # return string
+            split_decrypted_mess = decrypted_message.split(' ')
+            for word in split_decrypted_mess: # so sanh vi word_list cho truoc
+                numer_words = 0
+                if is_word(self.valid_words, word):
+                    numer_words += 1
+                    print(numer_words)
+                if numer_words > max_number_words:
+                    max_number_words = numer_words
+                    best_shift = s
+                    print(best_shift)
+        return (best_shift, self.apply_shift(best_shift))
 
-#    #Example test case (PlaintextMessage)
-#    plaintext = PlaintextMessage('hello', 2)
-#    print('Expected Output: jgnnq')
-#    print('Actual Output:', plaintext.get_message_text_encrypted())
-#
-#    #Example test case (CiphertextMessage)
-#    ciphertext = CiphertextMessage('jgnnq')
-#    print('Expected Output:', (24, 'hello'))
-#    print('Actual Output:', ciphertext.decrypt_message())
+#if __name__ == '__main__':
+
+user_message = str(input("Enter string to cipher: "))
+user_shift = int(input("Enter shift number: "))
+    #Example test case (PlaintextMessage)
+plaintext = PlaintextMessage(user_message, user_shift)
+    #print('Expected Output: jgnnq')
+encrypted_msg = plaintext.get_message_text_encrypted()
+print('Actual Output:', encrypted_msg)
+
+    #Example test case (CiphertextMessage)
+
+ciphertext = CiphertextMessage(encrypted_msg)
+print('Expected Output:', (24, 'hello'))
+print('Actual Output:', ciphertext.decrypt_message())
 
     #TODO: WRITE YOUR TEST CASES HERE
 
     #TODO: best shift value and unencrypted story 
     
-    pass #delete this line and replace with your code here
+    #pass #delete this line and replace with your code here
