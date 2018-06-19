@@ -248,30 +248,39 @@ class CiphertextMessage(Message):
         for s in range (0,27): # 0<= x < 27
             decrypted_message = self.apply_shift(s) # return string
             split_decrypted_msg = decrypted_message.split(' ')
+            print(decrypted_message)
+            print(split_decrypted_msg)
             numer_words = 0
             i = 0
             for word in split_decrypted_msg: # so sanh vi word_list cho truoc
                 i += 1
+                print("i = ", i)
+                print(word)
                 if (is_word(self.valid_words, word)) and (i == 1):
                     numer_words += 1
+                print(numer_words)
                 if numer_words > max_number_words:
                     max_number_words = numer_words
                     best_shift = s
+                print(best_shift)
+            if numer_words == 0:
+                print("Cannot decrypt!!")
         return (best_shift, self.apply_shift(best_shift))
 
 #if __name__ == '__main__':
 
 user_message = str(input("Enter string to cipher: "))
 user_shift = int(input("Enter shift number: "))
-
     #Example test case (PlaintextMessage)
 plaintext = PlaintextMessage(user_message, user_shift)
+    #print('Expected Output: jgnnq')
 encrypted_msg = plaintext.get_message_text_encrypted()
-print('\nActual Output:', encrypted_msg)
+print(encrypted_msg)
+print('Actual Output:', encrypted_msg)
 
     #Example test case (CiphertextMessage)
 user_encrypted_msg = encrypted_msg
-print("\nMessage need to be decrypted: ", user_encrypted_msg)
+print("Message need to be decrypted: ", user_encrypted_msg)
 ciphertext = CiphertextMessage(user_encrypted_msg)
 #print('Expected Output:', (24, 'hello'))
 print('Actual Output:', ciphertext.decrypt_message())
