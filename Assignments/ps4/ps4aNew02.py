@@ -5,7 +5,7 @@
 from scipy.signal import firls
 
 
-def get_permutations(sequence):
+def get_permutations(mystr):
     '''
     Enumerate all permutations of a given string
 
@@ -25,19 +25,14 @@ def get_permutations(sequence):
     a different order than what is listed here.
     :rtype: object
     '''
-    if len(sequence) <= 1:
-        return [sequence] # buoc dung de quy
-
-    output_list_all_permutations = []  # return list as result of function
-
-    for letter in sequence:
-        permutations = get_permutations(sequence.replace(letter, '', 1)) # buoc de quy, voi string moi bo di ky tu dau tien
-        for perm in permutations: # list permutations
-            newperm = letter + perm
-            if output_list_all_permutations.count(newperm) == 0: # kiem tra chuoi da ton tai trong list chua
-                output_list_all_permutations.append(letter + perm) # neu chua thi add vao list
-
-    return output_list_all_permutations
+    if len(mystr) <= 1:
+        return [mystr]
+    res = []
+    for elt in mystr:
+        permutations = get_permutations(mystr.replace(elt, ""))
+        for permutation in permutations:
+            res.append(elt + permutation)
+    return res
 
 if __name__ == '__main__':
 

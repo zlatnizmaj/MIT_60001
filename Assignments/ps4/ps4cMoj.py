@@ -60,6 +60,33 @@ VOWELS_LOWER = 'aeiou'
 VOWELS_UPPER = 'AEIOU'
 CONSONANTS_LOWER = 'bcdfghjklmnpqrstvwxyz'
 CONSONANTS_UPPER = 'BCDFGHJKLMNPQRSTVWXYZ'
+print(VOWELS_LOWER.upper()[1])
+vowels_permutation = get_permutations(VOWELS_LOWER) + get_permutations(VOWELS_UPPER)
+print(vowels_permutation)
+vowels_permutation_str = ' '.join(vowels_permutation)
+print(vowels_permutation_str)
+perm_dict = {}
+# str = vowels_permutation[0]
+# perm_dict[VOWELS_LOWER[0]] = str[0]
+permutation_upper = 'EAIUO'
+permutation_lower = 'eaiuo'
+for i in range (0, 5):
+    perm_dict[VOWELS_UPPER[i]] = permutation_upper[i]
+    perm_dict[VOWELS_LOWER[i]] = permutation_lower[i]
+for i in range (0, 21):
+    perm_dict[CONSONANTS_UPPER[i]] = CONSONANTS_UPPER[i]
+    perm_dict[CONSONANTS_LOWER[i]] = CONSONANTS_LOWER[i]
+#perm_dict[VOWELS_UPPER[0]] = permutation_upper[0]
+print(perm_dict)
+print(perm_dict['a'])
+# number_of_permutation = 1
+# for i in range(1, len(VOWELS_LOWER) + 1):
+#     number_of_permutation *= i
+# print(number_of_permutation)
+# str = vowels_permutation[0]
+# print(str[0])
+# for permutation in vowels_permutation:
+#     print(len(permutation))
 
 class SubMessage(object):
     def __init__(self, text):
@@ -90,7 +117,7 @@ class SubMessage(object):
         
         Returns: a COPY of self.valid_words
         '''
-        return self.valid_words[:]
+        return self.valid_words.copy()
                 
     def build_transpose_dict(self, vowels_permutation):
         '''
@@ -112,24 +139,7 @@ class SubMessage(object):
                  another letter (string). 
         '''
 
-        #vowels_permutation_list = get_permutations(VOWELS_UPPER) + get_permutations(VOWELS_LOWER)
-        #vowels_permutation_string = ' '.join(vowels_permutation_list)
-
-        self.perm_dict = {}
-        #for permutation in vowels_permutation:
-        # permutation_upper = 'EAIUO'
-        # permutation_lower = 'eaiuo'
-        #if vowels_permutation.islower():
-
-        for i in range (0, 5):
-            self.perm_dict[VOWELS_LOWER[i]] = vowels_permutation[i]
-        for i in range(0, 21):
-            self.perm_dict[CONSONANTS_LOWER[i]] = CONSONANTS_LOWER[i]
-        # else:
-        #     self.perm_dict[VOWELS_UPPER[i]] = vowels_permutation.upper()[i]
-        #     self.perm_dict[CONSONANTS_UPPER[i]] = CONSONANTS_UPPER[i]
-
-        return self.perm_dict
+        vowels_permutation = get_permutations(stringps4c.py)
     
     def apply_transpose(self, transpose_dict):
         '''
@@ -138,14 +148,8 @@ class SubMessage(object):
         Returns: an encrypted version of the message text, based 
         on the dictionary
         '''
-        perm_dict = self.build_transpose_dict(transpose_dict)
-        self.submsg_text = ""
-        for letter in self.message_text:
-            if letter in perm_dict:
-                self.submsg_text += perm_dict[letter]
-            else:
-                self.submsg_text += letter
-        return self.submsg_text
+        
+        pass #delete this line and replace with your code here
         
 class EncryptedSubMessage(SubMessage):
     def __init__(self, text):
@@ -158,8 +162,7 @@ class EncryptedSubMessage(SubMessage):
             self.message_text (string, determined by input text)
             self.valid_words (list, determined using helper function load_words)
         '''
-        SubMessage.__init__(text)
-
+        pass #delete this line and replace with your code here
 
     def decrypt_message(self):
         '''
@@ -191,7 +194,7 @@ if __name__ == '__main__':
     print("Original message:", message.get_message_text(), "Permutation:", permutation)
     print("Expected encryption:", "Hallu Wurld!")
     print("Actual encryption:", message.apply_transpose(enc_dict))
-    # enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
-    # print("Decrypted message:", enc_message.decrypt_message())
+    enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
+    print("Decrypted message:", enc_message.decrypt_message())
      
     #TODO: WRITE YOUR TEST CASES HERE

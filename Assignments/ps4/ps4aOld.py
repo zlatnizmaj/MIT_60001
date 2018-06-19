@@ -25,19 +25,20 @@ def get_permutations(sequence):
     a different order than what is listed here.
     :rtype: object
     '''
-    if len(sequence) <= 1:
-        return [sequence] # buoc dung de quy
+    def toString(s):
+        return ''.join(s)
 
-    output_list_all_permutations = []  # return list as result of function
+    def permutation(s, i):
+        if i == len(s) - 1:
+            print(toString(s))
+        else:
+            for index in range (i, len(s)):
+                s[i], s[index] = s[index], s[i] # swap hai gia tri tai i va index
+                permutation(s, i + 1)
+                s[i], s[index] = s[index], s[i]
 
-    for letter in sequence:
-        permutations = get_permutations(sequence.replace(letter, '', 1)) # buoc de quy, voi string moi bo di ky tu dau tien
-        for perm in permutations: # list permutations
-            newperm = letter + perm
-            if output_list_all_permutations.count(newperm) == 0: # kiem tra chuoi da ton tai trong list chua
-                output_list_all_permutations.append(letter + perm) # neu chua thi add vao list
-
-    return output_list_all_permutations
+    s = list(sequence)
+    permutation(s, 0) # bat dau tu vi tri dau tien cua list (index = 0)
 
 if __name__ == '__main__':
 
@@ -45,7 +46,7 @@ if __name__ == '__main__':
     print("Input:", example_input)
     print("Expected Output:", ['abc', 'acb', 'bac', 'bca', 'cab', 'cba'])
     print("Actual Output:")
-    print(get_permutations(example_input))
+    get_permutations(example_input)
 
     example_input = str(input("Enter a string for permutation: ")) # nhap day can tim to hop
     # tinh so to hop se xuat ra
@@ -54,7 +55,7 @@ if __name__ == '__main__':
         number_of_permutation *= i
     print("Number of permutation = {}".format(number_of_permutation))
     # cac to hop cua day vua nhap
-    print(get_permutations(example_input))
+    get_permutations(example_input)
     
 #    # Put three example test cases here (for your sanity, limit your inputs
 #    to be three characters or fewer as you will have n! permutations for a 

@@ -36,12 +36,15 @@ for i in range(0, 26):  # i la chi so index cua day ky tu a-z, tu 0-25
         shift_dict[lowercase_letter[i]] = lowercase_letter[i + shift]
 print(shift_dict)
 
-message_text = "i love you"
-print(message_text.strip())
-cipher_message_text = ""
+message_text = "abc"
 for letter in message_text:
-    if letter in shift_dict:
-        cipher_message_text += shift_dict[letter]
-    else:
-        cipher_message_text += letter # giu nguyen ky tu khoanrg trang vaf dac biet khong phai a-z
-print(cipher_message_text)
+    new_msg = message_text.replace(letter,'',1)
+    print(new_msg)
+# print(message_text.strip())
+# cipher_message_text = ""
+# for letter in message_text:
+#     if letter in shift_dict:
+#         cipher_message_text += shift_dict[letter]
+#     else:
+#         cipher_message_text += letter # giu nguyen ky tu khoanrg trang vaf dac biet khong phai a-z
+# print(cipher_message_text)

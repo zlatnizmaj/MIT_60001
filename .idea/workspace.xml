@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="215a2ada-6535-4bd9-b478-0de0879171b6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/ps4/ps4bMoj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture codes/decrypted message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture codes/ps4btest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lecture codes/words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/ps4/ps4aNew02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/ps4/ps4aOld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/ps4/ps4cMoj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/ps4/ps4cm1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MIT_60001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MIT_60001.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4b.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/ps4/ps4b.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4a.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/ps4/ps4a.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4aMoj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4aNewPermutation.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4a_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4bMoj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4bOK.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/ps4/ps4c.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/ps4/ps4c.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lecture codes/String_ASCII.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lecture codes/String_ASCII.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ps4b.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ps4b.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4b.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="276" column="53" lean-forward="true" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
+            <state relative-caret-position="2852">
+              <caret line="273" column="31" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
               <folding>
                 <element signature="e#79#92#0" expanded="true" />
               </folding>
@@ -30,52 +38,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4c.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ps4c.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4c.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="146" column="52" selection-start-line="138" selection-start-column="8" selection-end-line="148" selection-end-column="20" />
+            <state relative-caret-position="163">
+              <caret line="140" column="61" lean-forward="true" selection-start-line="140" selection-start-column="61" selection-end-line="140" selection-end-column="61" />
+              <folding>
+                <element signature="e#79#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4bMoj.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bMoj.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="decrypted message.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture codes/decrypted message.py">
+      <file leaf-file-name="ps4cMoj.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4cMoj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="172" column="34" lean-forward="true" selection-start-line="172" selection-start-column="12" selection-end-line="172" selection-end-column="39" />
+            <state relative-caret-position="-58">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+              <folding>
+                <element signature="e#79#92#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4bOK.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bOK.py">
+      <file leaf-file-name="ps4cm1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4cm1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="261" column="37" selection-start-line="261" selection-start-column="37" selection-end-line="261" selection-end-column="37" />
-            </state>
+            <state relative-caret-position="-2358" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ps4btest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture codes/ps4btest.py">
+      <file leaf-file-name="ps4a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4a.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="296" column="35" selection-start-line="296" selection-start-column="35" selection-end-line="296" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String_ASCII.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="425">
+              <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -95,18 +93,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lecture codes/String_ASCII.py" />
         <option value="$PROJECT_DIR$/Assignments/ps4/ps4bTruc.py" />
         <option value="$PROJECT_DIR$/Lecture codes/decrypted message.py" />
         <option value="$PROJECT_DIR$/Lecture codes/ps4btest.py" />
         <option value="$PROJECT_DIR$/Assignments/ps4/ps4bOK.py" />
         <option value="$PROJECT_DIR$/Assignments/ps4/ps4b.py" />
+        <option value="$PROJECT_DIR$/Assignments/ps4/New folder (2)/ps4c.py" />
+        <option value="$PROJECT_DIR$/Lecture codes/String_ASCII.py" />
+        <option value="$PROJECT_DIR$/Assignments/ps4/ps4aNew02.py" />
+        <option value="$PROJECT_DIR$/Assignments/ps4/ps4aNew.py" />
+        <option value="$PROJECT_DIR$/Assignments/ps4/ps4cMoj.py" />
+        <option value="$PROJECT_DIR$/Assignments/ps4/ps4c.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="726" />
     <option name="width" value="640" />
-    <option name="height" value="984" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -116,42 +120,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="MIT_6001_Git projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MIT_6001_Git projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MIT_60001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIT_60001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MIT_6001_Git projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MIT_6001_Git projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MIT_60001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIT_60001" type="462c0819:PsiDirectoryNode" />
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MIT_6001_Git projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MIT_6001_Git projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MIT_60001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIT_60001" type="462c0819:PsiDirectoryNode" />
               <item name="Assignments" type="462c0819:PsiDirectoryNode" />
               <item name="ps4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="MIT_6001_Git projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MIT_6001_Git projects" type="462c0819:PsiDirectoryNode" />
+              <item name="MIT_60001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIT_60001" type="462c0819:PsiDirectoryNode" />
               <item name="Lecture codes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment/ps4" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\@JUGNAM#\06 Advanced Algorithm\02 Moj Python Treba\MIT 6001\MIT_60001\Assignments\ps4" />
+      <recent name="D:\@JUGNAM#\06 Advanced Algorithm\02 Moj Python Treba\MIT 6001\MIT_60001\Assignments\ps4\ps4" />
       <recent name="D:\Moj Desktop\00 MOJ DESKTOP\@Moj Python\MIT_6001_Git projects\Assignments\ps4" />
       <recent name="D:\Moj Desktop\00 MOJ DESKTOP\@Moj Python\MIT_6001_Git projects\Lecture codes" />
     </key>
@@ -168,8 +174,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ps4b">
-    <configuration name="decrypted message" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ps4c">
+    <configuration name="String_ASCII" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MIT_60001" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,13 +187,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture codes/decrypted message.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture codes/String_ASCII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ps4a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ps4aNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MIT_60001" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,7 +205,25 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4a.py" />
+      <option name="SCRIPT_NAME" value="D:\@JUGNAM#\06 Advanced Algorithm\02 Moj Python Treba\MIT 6001\MIT_60001\Assignments\ps4\ps4a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ps4aNew02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MIT_60001" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignments/ps4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4aNew02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,7 +247,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ps4bOK" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ps4c" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MIT_60001" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,61 +259,45 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4bOK.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4c.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Doctests in ps4bTruc" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="ps4cMoj" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MIT_60001" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignments/ps4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4bTruc.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
-    <configuration name="Doctests in ps4btest" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="MIT_60001" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lecture codes" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lecture codes/ps4btest.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/ps4/ps4cMoj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
       <item itemvalue="Python.ps4b" />
-      <item itemvalue="Python.ps4bOK" />
-      <item itemvalue="Python.ps4a" />
-      <item itemvalue="Python tests.Doctests in ps4bTruc" />
-      <item itemvalue="Python.decrypted message" />
-      <item itemvalue="Python tests.Doctests in ps4btest" />
+      <item itemvalue="Python.ps4cMoj" />
+      <item itemvalue="Python.String_ASCII" />
+      <item itemvalue="Python.ps4aNew" />
+      <item itemvalue="Python.ps4aNew02" />
+      <item itemvalue="Python.ps4c" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.decrypted message" />
-        <item itemvalue="Python.ps4bOK" />
-        <item itemvalue="Python tests.Doctests in ps4btest" />
-        <item itemvalue="Python tests.Doctests in ps4bTruc" />
-        <item itemvalue="Python.ps4a" />
+        <item itemvalue="Python.ps4c" />
+        <item itemvalue="Python.ps4cMoj" />
+        <item itemvalue="Python.ps4aNew" />
+        <item itemvalue="Python.ps4aNew02" />
+        <item itemvalue="Python.String_ASCII" />
       </list>
     </recent_temporary>
   </component>
@@ -308,9 +316,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Doctests_in_ps4bTruc - 2018.06.18 at 22h 16m 46s.xml">
-      <configuration name="Doctests in ps4bTruc" configurationId="tests" />
-    </history-entry>
     <history-entry file="Doctests_in_ps4btest - 2018.06.19 at 13h 51m 28s.xml">
       <configuration name="Doctests in ps4btest" configurationId="tests" />
     </history-entry>
@@ -338,24 +343,27 @@
     <history-entry file="Doctests_in_ps4btest - 2018.06.19 at 13h 56m 15s.xml">
       <configuration name="Doctests in ps4btest" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctests_in_ps4cm1 - 2018.06.19 at 23h 19m 19s.xml">
+      <configuration name="Doctests in ps4cm1" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852123" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295964" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32861635" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32861635" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45515695" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4544025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4544025" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1852123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,7 +383,48 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4aOld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bOK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="270" column="25" lean-forward="true" selection-start-line="266" selection-start-column="2" selection-end-line="270" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bTruc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="273" column="31" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4b.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3162">
@@ -408,9 +457,7 @@
     <entry file="file://$PROJECT_DIR$/Assignments/ps4/story.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ps4b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ps4b.py" />
     <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -443,9 +490,7 @@
     <entry file="file://$PROJECT_DIR$/Assignments/ps4/story.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ps4b.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ps4b.py" />
     <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -513,45 +558,9 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/ps4b.py" />
-    <entry file="file://$PROJECT_DIR$/Assignments/ps4/words.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4a.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bTruc.py" />
-    <entry file="file://$PROJECT_DIR$/../MIT 6001/ASSIGNMENTs/ps4/ps4b.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="217" column="47" selection-start-line="215" selection-start-column="5" selection-end-line="217" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../MIT 6001/ASSIGNMENTs/ps4/ps4b.py" />
     <entry file="file://$PROJECT_DIR$/Lecture codes/words.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture codes/ps4btest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="296" column="35" selection-start-line="296" selection-start-column="35" selection-end-line="296" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bOK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="261" column="37" selection-start-line="261" selection-start-column="37" selection-end-line="261" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lecture codes/decrypted message.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,10 +572,106 @@
     <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bMoj.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4b.py">
+    <entry file="file://$PROJECT_DIR$/Lecture codes/ps4btest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="276" column="53" lean-forward="true" selection-start-line="276" selection-start-column="53" selection-end-line="276" selection-end-column="53" />
+        <state relative-caret-position="849">
+          <caret line="296" column="35" selection-start-line="296" selection-start-column="35" selection-end-line="296" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bTruc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4bOK.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="270" column="25" selection-start-line="266" selection-start-column="2" selection-end-line="270" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/New folder (2)/ps4c.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/New folder (2)/ps4a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4/ps4a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4/ps4c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment/ps4/ps4a.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment/ps4/ps4c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Assignment/MIT_OCW_6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/ps4/ps4c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2390" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ps4cm1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lecture codes/String_ASCII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4aNew02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4aOld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="16" selection-start-line="9" selection-start-column="4" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4cm1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2358" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="94" selection-start-line="37" selection-start-column="94" selection-end-line="37" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4cMoj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="e#79#92#0" expanded="true" />
           </folding>
@@ -575,8 +680,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4c.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="146" column="52" selection-start-line="138" selection-start-column="8" selection-end-line="148" selection-end-column="20" />
+        <state relative-caret-position="163">
+          <caret line="140" column="61" lean-forward="true" selection-start-line="140" selection-start-column="61" selection-end-line="140" selection-end-column="61" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assignments/ps4/ps4b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2852">
+          <caret line="273" column="31" selection-start-line="273" selection-start-column="31" selection-end-line="273" selection-end-column="31" />
+          <folding>
+            <element signature="e#79#92#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
