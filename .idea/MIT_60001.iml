@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Assignments" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Assignments/ps4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Assignments/ps5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Assignments/ps3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MIT-6.0001-Intro-to-CS-master" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,3 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+@subject:
+Bài tập giữa kì môn Giải thuật nâng cao
+Assignments MIT6_0001
+hangman.py
+
+@author:
+Nguyễn Phương Nam
+Lớp KHMT ĐHSP_ K28
+
+"""
 # Problem Set 2, hangman.py
 # Name: 
 # Collaborators:

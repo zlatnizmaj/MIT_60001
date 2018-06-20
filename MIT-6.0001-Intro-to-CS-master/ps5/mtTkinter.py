@@ -56,8 +56,6 @@ Author: Allen B. Taylor, a.b.taylor@gmail.com
 from tkinter import *
 import threading
 import queue
-import mtTkinter as Tkinter
-from mtTkinter import *
 
 class _Tk(object):
     """

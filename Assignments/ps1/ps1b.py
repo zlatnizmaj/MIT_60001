@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jun 13 22:53:57 2018
+@subject:
+Bài tập giữa kì môn Giải thuật nâng cao
+Assignments MIT6_0001
+ps1b.py
 
-@author: admin
+@author:
+Nguyễn Phương Nam
+Lớp KHMT ĐHSP_ K28
+
 """
 
 annual_salary = int(input("Enter your starting annual salary: "))
