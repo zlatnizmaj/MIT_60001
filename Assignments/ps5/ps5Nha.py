@@ -43,9 +43,10 @@ def process(url):
           #  pubdate.replace(tzinfo=None)
         except ValueError:
             pubdate = datetime.strptime(pubdate, "%a, %d %b %Y %H:%M:%S %z")
-
+        print("title", title)
         newsStory = NewsStory(guid, title, description, link, pubdate)
         ret.append(newsStory)
+
     return ret
 
 #======================
@@ -127,12 +128,13 @@ class TitleTrigger(PhraseTrigger):
       #  super().__init__(word)
 
     def evaluate(self,story):
-        return self.is_phrase_in(story.getTitle())
+        return self.is_phrase_in(story.get_title())
 # Problem 4
 # TODO: DescriptionTrigger
 class DescriptionTrigger(PhraseTrigger):
     def evaluate(self,story):
-        return self.is_phrase_in(story.getDescription())
+        #return self.is_phrase_in(story.getDescription())
+        return self.is_phrase_in(story.get_description())
 # TIME TRIGGERS
 
 # Problem 5
@@ -202,13 +204,13 @@ def filter_stories(stories, triggerlist):
     # TODO: Problem 10
     # This is a placeholder
     # (we're just returning all the stories, with no filtering)
-    stories = []
+    Stories = []
     for story in stories:
         for trig in triggerlist:
             if trig.evaluate(story) == True:
-                stories.append(story)
+                Stories.append(story)
                 break
-    return stories
+    return Stories
 
     #return stories
 
@@ -223,7 +225,7 @@ def read_trigger_config(filename):
     filename: the name of a trigger configuration file
 
     Returns: a list of trigger objects specified by the trigger configuration
-        file.
+
     """
     # We give you the code to read in the file and eliminate blank lines and
     # comments. You don't need to know how it works for now!
@@ -275,7 +277,7 @@ def main_thread(master):
 
         # Problem 11
         # TODO: After implementing read_trigger_config, uncomment this line
-        # triggerlist = read_trigger_config('triggers.txt')
+        triggerlist = read_trigger_config('triggers.txt')
 
         # HELPER CODE - you don't need to understand this!
         # Draws the popup window that displays the filtered stories
@@ -331,5 +333,6 @@ if __name__ == '__main__':
     root.title("Some RSS parser")
     t = threading.Thread(target=main_thread, args=(root,))
     t.start()
+    t.getName()
     root.mainloop()
 
