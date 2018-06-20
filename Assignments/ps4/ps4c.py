@@ -120,9 +120,10 @@ class SubMessage(object):
         # permutation_upper = 'EAIUO'
         # permutation_lower = 'eaiuo'
         #if vowels_permutation.islower():
+        permutation_lower = vowels_permutation
 
         for i in range (0, 5):
-            self.perm_dict[VOWELS_LOWER[i]] = vowels_permutation[i]
+            self.perm_dict[VOWELS_LOWER[i]] = permutation_lower[i]
         for i in range(0, 21):
             self.perm_dict[CONSONANTS_LOWER[i]] = CONSONANTS_LOWER[i]
         # else:
